@@ -1,0 +1,309 @@
+        *{
+                box-sizing: border-box;
+        }
+       
+        body{
+            background-color: #F1D1D1;
+        }
+        #navbar-main{
+            background-color:#7D5A5A;
+            color:white;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            position: sticky;
+
+        }
+        #navbar-main div{
+            padding: 10px;
+        }
+        #navbar-items{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        #item:hover{
+            background-color:#F3E1E1;
+            color:black;
+            
+        }
+        #item{
+            font-family: 'Lobster', cursive;
+        }
+        #navbar-search{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        #navbar-toggle{
+            display: none;
+        }
+        #navbar-toggle button{
+            background-color: whitesmoke;
+        }
+        #title{
+            font-family: 'Fondamento', cursive;
+            font-size: x-large;
+        }
+        #nav-toggle-list{
+            display: none;
+            list-style-type: none;
+            position: absolute;
+            background-color: #7D5A5A;
+            color:white;
+            width: max-content;
+        }
+        #nav-toggle-list p{
+            text-align: center;
+            padding: 2px;
+        }
+        #nav-toggle-list p:hover a{
+            background-color: #F3E1E1;
+            color: black;
+        }
+        #nav-toggle-list p:hover{
+            background-color: #F3E1E1;
+        }
+        a{
+            text-decoration:none ;
+            color: white;
+        }
+        #item:hover a{
+            color: black;
+        }
+        #search{
+            width: 170px;
+            border-radius: 0%;
+            height: 6mm;
+        }
+
+            /*--------------------- portal.html page--------------------------------*/
+            #sp{
+                display: none;
+            }
+            #pp{
+                display: none;
+            }
+            #ep{
+                display: none;
+            }
+            #academics{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                border-color: black;
+                border-style: solid;
+                height: 14cm;
+            }
+            #portal-title{
+              text-align: center;      
+            }
+            #btn,#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7{
+              background-color: black;
+              padding: 20px;
+              margin-bottom: 2px;
+              border: none;
+              color: white;
+              width: 100%;
+            }
+            #btn:hover,#btn1:hover,#btn2:hover,#btn3:hover,#btn4:hover,#btn5:hover,#btn6:hover,#btn7:hover{
+              background-color: #f7d9d9 ;
+              border-style: solid;
+              border-color: black;
+              color: black;
+            }    
+            #btnl{
+                background-color: black;
+                padding: 20px;
+                margin-bottom: 2px;
+                border: none;
+                color: white;
+                width: 100%;
+            }
+            #btnl:hover{
+                background-color: white ;
+              border-style: solid;
+              border-color: black;
+              color: black;
+            }
+            #navbar-toggle button{
+              background-color: whitesmoke;
+              color: black;
+              
+            }
+            #sp-login tr,#sp-login tr td{
+              padding: 15px;
+            }
+            #sp-login{
+              background-color: rgba(245, 245, 245, 0.6);
+              border-radius: 10px;
+              box-shadow: 5px 8px rgba(0, 0, 0, 0.6);
+              margin-top: 10%;
+            }
+            input{
+              height: 30px;
+              width: 300px;
+              border-style: none;
+              border-radius: 5px;
+            }    
+            #fb{
+              border-style: none;
+              background-color:rgba(245, 245, 245, 0.342);
+            }
+            #fp{
+                color: black;
+            }
+/*                   about.html                                 */
+
+.about-section{
+    background: url(3053975.jpg) no-repeat left;
+    background-size: 25%;
+    overflow: hidden;
+    margin: 20px;
+    padding: 20px;
+}
+.inner-container{
+    width: 70%;
+    float: right;
+ 
+}
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+    font-size: larger;
+}   
+/*                   admissions.html                                 */
+#ad-login tr,#ad-login tr td{
+    padding: 5px;
+  }
+  #ad-login{
+    background-color: rgba(245, 245, 245, 0.6);
+    border-radius: 10px;
+    box-shadow: 5px 8px rgba(0, 0, 0, 0.6);
+    margin-top: 15px;
+  }
+/* admissions &&& academics .html*/
+#engineering{
+    display: none;
+}    
+#bba{
+    display: none;
+}
+#architecture{
+    display: none;
+}
+#biotechnology{
+    display: none;
+}
+#bpharmacy{
+    display: none;
+}
+#humanities{
+    display: none;
+}
+#mtech{
+    display: none;
+}
+#msc{
+    display: none;
+}
+#a-img{
+    border-style: solid ;
+    border-color: black;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
+}
+#ad-select{
+    width: 8cm;height: 8mm;border-radius: 5px;border-style: none;
+}
+/*          contact us.html                         */
+.contact-left{
+    flex-basis: 60%;
+    padding:  40px 60px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.6);
+    width: 80%;
+    margin: auto;
+    
+}
+.contact-right{
+    flex-basis: 40%;
+    padding:  40px;
+    background-color: cadetblue;
+}
+h1{
+    margin-bottom: 10px;
+}
+.container p{
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+}
+#cu-button{
+    background-color: black;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+   
+}
+#cu-button:hover{
+    background-color: #f7d9d9 ;
+              border-style: solid;
+              border-color: black;
+              color: black;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+.txt{
+    font-size: large;
+    font-weight: bold;
+}
+#contactus{
+    border-style: solid;
+    border-color: black;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
